@@ -3,3 +3,5 @@ black
 pylint
 pytest
 ipython
+pandas
+numpy

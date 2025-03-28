@@ -1,0 +1,4 @@
+client, formula
+1, vat_out + special_out
+2, special_out * special_in
+3, (special_out + 1) * (vat_out + 1)
