@@ -1,10 +1,11 @@
 install:
 		pip install -r requirements.txt
 format:
-	black *.py
+
+	black $(shell git ls-files -o --exclude-standard)
 
 test:
-	pytest 
+	python -m pytest -vv  test/test.py
 run:
 	python utility.py
 

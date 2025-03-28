@@ -1,3 +1,5 @@
 pyspark
 black
 pylint
+pytest
+ipython
