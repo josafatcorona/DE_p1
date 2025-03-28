@@ -13,3 +13,5 @@ lint:
 	pylint $(shell find . -name "*.py")
 
 all: install format lint
+
+.PHONY: test
